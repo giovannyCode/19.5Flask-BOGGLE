@@ -1,0 +1,118 @@
+
+/* Set a max width for the table container */
+.table-container {
+  display: flex;
+  justify-content: center;
+}
+.form-container
+{
+  display: flex;
+  justify-content: center;
+}
+/* Apply a basic table style */
+table {
+  width: 50%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-weight:bold
+
+}
+
+/* Style the table headers */
+th {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Style the table rows */
+tr {
+  background-color: #e0e2f8;
+}
+
+/* Style the table cells */
+td {
+  padding: 8px;
+  border: 1px solid #cccccc;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+/* Highlight rows on hover */
+td:hover {
+  background-color: #ddd;
+}
+h1
+{
+  text-align: center;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;      
+  text-align: center;      /* Footer height */
+}
+.messages p {
+  padding: 1rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  }
+  
+  .messages.success {
+  background-color: rgba(0, 255, 0, 0.1);
+  margin: 0 auto;
+  text-align: center;
+  color :green;
+  font-weight: bold;
+  }
+  .messages.error {
+  background-color: rgba(255, 0, 0, 0.1);
+  margin: 0 auto;
+  text-align: center;
+  color: crimson;
+  font-weight: bold;
+  }
+
+  .score-box {
+    background-color: #3498db;
+    color: #ffffff;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #2980b9;
+    margin: 0 auto;
+    font-size: 30px;
+  }
+
+  .stadistics {
+    background-color: #3498db;
+    color: #ffffff;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+ 

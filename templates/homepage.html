@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}{{survey_tittle}}{% endblock %}
+
+{% block content %}
+
+<h1>Boggle</h1>
+<br>
+<br>
+<div class="circle">
+ 
+  <p id= "boggleCounter"></p>
+    
+</div>
+
+<div class="score-box">
+  Score: <span id="score">0</span>
+</div>
+
+<br>
+
+<section class="messages">
+ 
+<p id= "boggleMessage"></p>
+  
+</section>
+<br>
+
+<div class="table-container">
+  <table>
+    <tbody>
+    {% for row in board %}
+    <tr>
+      {% for letter in row %}
+      <td>{{letter}}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </tbody>
+</table> </div>
+
+<br>
+<br>
+<div class ="form-container">
+
+  <form  id="letterform">
+    <label for="word">Enter a Word:</label>
+    <input type="text" id="inputWord" name="word" placeholder="Type your word" required>
+    <input id ="submitWord"type="submit" value="Submit">
+  </form>
+
+</div>
+<br>
+<div class="stadistics">
+<p id="stadistics"> Max score: 0  times played: 0 </p>
+</div>
+
+
+    
+ 
+  
+{% endblock %}
